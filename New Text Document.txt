@@ -1,0 +1,38 @@
+To become a devops Engineer you should have working experience in terraform , ansible , Jenkins ,git,cloud (AWS/gcp/azure ) , 
+should be very strong in core linux & should be good with troubleshooting problems.
+
+
+
+Devops,Aws cloud,unix/linux,Git,Docker,Ansible,Maven,Cloud watch,Nagios,yaml,Jenkins,Kurbernets
+
+1)Decide on VPC name and create a new VPC. For this class VPC name is AWS-009-30June VPC and IP Address space we are ging to use is 
+10.1.0.0/16 =>65000 Ips. Enable DNS Hostnames.
+
+2.Create three Subnets in INFY-VPC.
+
+Webserver-1 - US-east-1a-> 10.10.1.0/24
+AppServer-1 - US-east-1b->10.10.2.0/24           10.1.0.0/24
+Dbserver-1  - US-east-1c->10.10.3.0/24
+
+3.Create internet gateway and attach it to VPC. IGW name is AWS-IGW.
+
+4.Create new routing table for INFY-VPC and assosiate subnets to it.Ignore the default routing table.
+
+5.Add routes in the routing table towards Internet Gateway.
+
+6.Create a security group INFY-VPC-5G and allow all in bound ports.
+
+7.Create a Key-pair which create Public and Private Keys.AWS will have Public Key and you will be given private key. 
+we need to use the private key to lgin to the instance.
+
+8.Deploy a linuc t2.nan instance and connect to it using private key u have created.
+
+Amazon linux = 8GB, 512MB, Free, Deplyes in less than a min.
+
+Linux Server : I need SSH to connect t linux server, Port 22. Fr windws RDP port 3389.
+Port 80 - HTTP
+
+pem- private key 
+ppk- private key 
+
+KeyPair consists of Public key (LOCK) and Private Key(Key).
