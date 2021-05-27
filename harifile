@@ -1,0 +1,8 @@
+tar -cvf dira.tar dira  c- create v- verboles f-forcefully
+gzip dira.tar
+rm -rf (remove file)
+gunzip dira.tar.gz
+tar -xvf dira.tar
+wget (download)
+yum (install)  
+ansible class t know about users and admin part
